@@ -3,8 +3,6 @@ import icons from 'url:../../img/icons.svg';
 import { Fraction } from 'fractional';
 import View from './View.js';
 
-console.log(Fraction);
-
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
   _errorMessage = 'we could not find that recipe. Please try another one!';
